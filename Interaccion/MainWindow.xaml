@@ -8,8 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <TextBlock x:Name="lblHolaMundo"> Hola Mundo! </TextBlock>
+        <TextBlock x:Name="lblHolaMundo"> Hola Mundo!</TextBlock>
         <Button x:Name="btnBoton" Width="100" Height="50" Margin="20, 50, 600, 150"> Botón </Button>
-        
+        <Button x:Name="btnBoton2" Width="100" Height="50" Margin="355, 135, 338, 235" Click="BtnBoton2_Click"> Botón 2</Button>
+        <Button x:Name="btnBoton3" Width="100" Height="50" Margin="630, 135, 63, 235" Click="BtnBoton3_Click">Botón 3</Button>
+
+
     </Grid>
 </Window>
